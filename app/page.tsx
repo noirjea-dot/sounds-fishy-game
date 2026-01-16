@@ -327,7 +327,7 @@ export default function Home() {
         <div className="w-full max-w-sm bg-slate-900/80 backdrop-blur-xl p-10 rounded-[3rem] border border-white/10 shadow-2xl text-center animate-in fade-in zoom-in duration-500">
           <div className="text-6xl mb-6">🐠</div>
           <h1 className="text-4xl font-black mb-2 bg-gradient-to-br from-cyan-400 to-blue-600 bg-clip-text text-transparent italic">FISHY AND CHIPS</h1>
-          <p className="text-slate-500 text-sm mb-8 font-bold tracking-widest uppercase">เกมของ "พวกเรา"</p>
+          <p className="text-slate-500 text-sm mb-8 font-bold tracking-widest uppercase">เกมของ "พวกเรา 1.1"</p>
           <input type="text" placeholder="ชื่อของคุณ..." className="w-full bg-slate-800/50 border border-slate-700 p-4 rounded-2xl mb-6 text-center text-xl outline-none focus:ring-2 ring-cyan-500 transition-all shadow-inner" onChange={(e) => setName(e.target.value)} maxLength={12} />
           <button disabled={!name} onClick={() => { playSound('click'); setStep('MENU'); }} className="w-full bg-gradient-to-r from-cyan-600 to-blue-600 py-4 rounded-2xl font-black text-xl hover:shadow-[0_0_20px_rgba(6,182,212,0.5)] active:scale-95 transition-all disabled:opacity-50">เข้าร่วมเกม</button>
         </div>
